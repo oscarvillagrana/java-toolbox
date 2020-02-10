@@ -1,0 +1,87 @@
+
+Project 1: Shape Shifter
+
+    Due Monday by 11:59pm Points 20 Submitting a text entry box or a file upload
+
+Project objectives:
+
+    Demonstrate ability to create multiple methods
+    Demonstrate the ability to call methods multiple times in a different order.
+
+Note: All project grades are based on how well you achieve the project objectives.  You are welcome to do more than the project requires once you accomplish the objectives, but points will only be awarded for successfully completing the objectives.
+
+For this project, create a Java program that includes a class that holds the main method and the following methods.  The module topic Hello World Modularized demonstrates this approach.  Here are the methods that are required:
+
+drawHorizontalLine: This method will display a horizontal line using asterisks
+
+drawVerticalLine: This method will display a vertical line using asterisks
+
+drawRectangle: This method will display a rectangle using asterisks
+
+drawSquare: This method will display a square using asterisks
+
+drawUpTriangle: This method will display a triangle pointed up using asterisks
+
+drawDownTriangle: This method will display a triangle pointed down using asterisks
+
+The main method should display a label and call (activate) each method to display each shape.  For example, the main method should display the label "Triangle", then  call the drawTriangle method to display a triangle shape made of asterisks.
+
+Important Note: The label is displayed in the main method only.  If you put a label in the other methods, it will cause problems with the complex shapes that you need to make next.
+Primary Shapes
+
+Vertical line label
+    *   
+    *   
+    *   
+Up triangle label
+    *   
+  *   *
+ *     *
+*********
+Rectangle label
+*********
+*       *
+*       *
+*********
+Horizonal line label
+*********
+Square label
+* *
+* *
+Down Triangle label
+*********
+ *     *
+  *   *
+    *   
+
+Next, the main method should display a label and call the methods again, but in a different order so the combined shapes make a more complex shape.  You can call as many of these methods as you need, as many times as you need them, in any order to make complex shapes.
+
+For example, to display a house, do not create a method that displays a house!  Instead, first display the label "House" in the main method, then call drawUpTriangle and then call drawRectangle.
+
+ public static void main(String[] args) {
+     System.out.println("House");
+     drawUpTriangle();
+     drawRectangle();
+}
+
+   The output might look something like this:
+
+Label House, 
+Triangle pointed up made of asterisks, 
+rectangle made of asterisks
+
+Notice that this shape does not display the labels Triangle and Rectangle, but the drawUpTriangle and drawRectangle methods should be called to create it.  This is why you should put labels in the main method only, not in the methods that create the shapes. 
+
+Create a minimum of 3 custom shapes by calling as many of the required methods as needed in any order and give it a label in your main method.
+
+You should test your code to make sure it displays the shapes to your liking.  If your code produces a shape that is not properly aligned, you may need to modify your shape methods to align the complex shapes properly.
+
+Minimum Requirements:
+
+1. This program must contain a class that includes the main method and the methods for the primary shapes only as described above.  Do not create methods for complex shapes or you will lose points.  (10 points)
+
+2. The main method should display a label and then call each primary shape.  The main method should then display labels and call (activate) the methods needed to make a house and a minimum of 3 additional complex shapes.  The output should include 10 shapes: 6 primary shapes, a house and 3 custom complex shapes.  (8 points)
+
+3. Upload the output of your program as a separate .txt file (2 points)
+
+Reminder: Do not put the labels for the shapes in the methods that display the primary shapes because it will mess up your complex shapes.  All labels should be in the main method only. 

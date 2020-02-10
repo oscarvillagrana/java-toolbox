@@ -1,0 +1,96 @@
+shapeShifter.txt
+
+/*-----------------------------------------------------------
+
+
+This is the HorizontalLine: 
+
+
+*********
+
+
+This is the VerticalLine: 
+
+
+*
+*
+*
+
+
+This is the UpTriangle: 
+
+
+*
+*   *
+*     *
+*********
+
+
+This is the Rectangle: 
+
+
+*********
+*       *
+*       *
+*********
+
+
+This is the Square: 
+
+
+* *
+* *
+
+
+This is the DownTriangle: 
+
+
+*********
+*     *
+*   *
+*
+
+
+This is the House: 
+
+
+*
+*   *
+*     *
+*********
+*********
+*       *
+*       *
+*********
+
+
+This is the Flag: 
+
+
+*
+*   *
+*     *
+*********
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+This is the Tower: 
+
+
+*********
+* *
+* *
+* *
+* *
+* *
+* *
+
+----------------------------------------------------------- */
